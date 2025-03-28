@@ -47,8 +47,5 @@
         "@types/jquery": "^3.5.32",
         "@types/pg": "^8.11.11",
         "@types/swiper": "^5.4.3"
-    },
-    "engines": {
-        "node": "16.x"
     }
 }
