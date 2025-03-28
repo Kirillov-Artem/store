@@ -1,0 +1,36 @@
+.cart {
+    width: 1280px;
+    margin: 50px auto;
+}
+
+.cart_items {
+    margin-top: 50px;
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-evenly;
+}
+
+.cart_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link_to-main {
+    text-decoration: none;
+    color: #222;
+}
+
+.link_to-main:hover {
+    opacity: 0.5;
+    transition: opacity 200ms ease-in;
+}
+
+.btn_order {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn_order:hover {
+    opacity: 0.5;
+    transition: opacity 200ms ease-in;
+}

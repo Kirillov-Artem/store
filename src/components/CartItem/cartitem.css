@@ -1,0 +1,12 @@
+.remove-from-cart {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 32px;
+}

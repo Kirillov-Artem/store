@@ -1,0 +1,45 @@
+header .logo {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+header .presentation {
+    margin: 50px 0;
+    width: 100%;
+    height: 500px;
+    background-image: url("./../../../public/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header {
+    position: relative;
+}
+
+header .presentation::after {
+    content: "Лучшие товары для вашего дома";
+    position: absolute;
+    top: 140px;
+    left: 75px;
+    width: 280px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-cart {
+    cursor: pointer;
+    transition: color 0.5s ease;
+    color: black;
+}
+
+.shop-cart:hover,
+.shop-cart.active {
+    color: red;
+}

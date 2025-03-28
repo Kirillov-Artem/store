@@ -1,0 +1,22 @@
+.swiper-slide {
+    height: 400px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-content {
+    text-align: center; /* Центрирование текста внутри элемента */
+    padding: 10px; /* Добавьте внутренние отступы */
+    border: 1px solid #ddd; /* Для наглядности можно добавить рамку */
+    border-radius: 5px; /* Округленные углы */
+}
+
+.swiper-pagination-bullet {
+    background-color: gray !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: black;
+    opacity: 1;
+}

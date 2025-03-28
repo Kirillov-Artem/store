@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // или "es6"
+        "module": "commonjs", // или "es6"
+        "outDir": "./dist", // Каталог для выходных файлов
+        "rootDir": "./src", // Каталог с исходными файлами
+        "strict": true, // Включает все строгие проверки типов
+        "esModuleInterop": true, // Включает совместимость с ES модулями
+        "jsx": "react-jsx"
+    },
+    "include": ["src"], // Включает все файлы из папки src
+    "exclude": ["node_modules"] // Исключает папку node_modules
+}

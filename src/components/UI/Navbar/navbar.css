@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #222;
+}
+
+.nav a:hover {
+    opacity: 0.5;
+    transition: opacity 200ms ease-in;
+}

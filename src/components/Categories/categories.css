@@ -1,0 +1,24 @@
+.categories {
+    display: flex;
+    column-gap: 20px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.categories_elem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 43px;
+    background-color: #f2f2f2;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    line-height: 43px;
+}
+
+.categories_elem:hover {
+    border-color: silver;
+    transform: scale(1.1);
+}
